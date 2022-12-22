@@ -1,0 +1,31 @@
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>,
+           Utkarsh Gupta <guptautkarsh2102@gmail.com>
+Testsuite: autopkgtest-pkg-nodejs
+Build-Depends:
+ debhelper-compat (= 13),
+ nodejs,
+ mocha,
+ node-ansi-regex,
+ dh-sequence-nodejs
+Standards-Version: 4.6.0
+Homepage: https://github.com/chalk/strip-ansi
+Vcs-Git: https://salsa.debian.org/js-team/node-strip-ansi.git
+Vcs-Browser: https://salsa.debian.org/js-team/node-strip-ansi
+Rules-Requires-Root: no
+Source: node-strip-ansi
+
+Package: node-strip-ansi
+Architecture: all
+Depends:
+ ${misc:Depends},
+ nodejs,
+ node-ansi-regex
+Description: Strip ANSI escape codes
+ This module strips ANSI escape codes.
+ .
+ To report a security vulnerability, please use the Tidelift security contact.
+ .
+ Node.js is an event-based server-side JavaScript engine.
