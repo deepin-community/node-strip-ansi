@@ -21,7 +21,7 @@ Package: node-strip-ansi
 Architecture: all
 Depends:
  ${misc:Depends},
- nodejs,
+ nodejs:any,
  node-ansi-regex
 Description: Strip ANSI escape codes
  This module strips ANSI escape codes.
