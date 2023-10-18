@@ -1,3 +1,10 @@
+node-strip-ansi (6.0.1-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-strip-ansi: Add :any qualifier for nodejs dependency.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 22 Nov 2022 11:07:04 +0000
+
 node-strip-ansi (6.0.1-1) unstable; urgency=medium
 
   * Team upload
